@@ -3,7 +3,7 @@ USE bd;
 
 DROP TABLE IF EXISTS n_cliente;
 CREATE TABLE n_cliente
- (id                         VARCHAR(3)  NOT NULL,
+ (id                         VARCHAR(30)  NOT NULL,
   nombre                       VARCHAR(20) NOT NULL,
   telefono                      VARCHAR(20) NOT NULL,
   direccion                   VARCHAR(20),
